@@ -2,7 +2,7 @@ import Context from "./components/Context"
 import Container from "./components/Container"
 import { useContext } from "react"
 
-export default function output() {
+export default function Output() {
 const {list, handleDelete} = useContext(Context)
 
 

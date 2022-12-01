@@ -1,3 +1,4 @@
+import Image from "next/image";
 import A from "./components/A"
 import Container from "./components/Container";
 
@@ -17,7 +18,7 @@ export default function Photos({photos}) {
             <li className="w-1/5 p-6" key={p.id}>
               <p>Click to go image page ▼</p>
                 <A href={`/photos/${p.id}`} text={p.title} />
-                <img className="rounded-xl m-4" src={p.url} />
+                <Image  className="rounded-xl m-4" src={p.url} />
             </li>)}
         </ul>
     </div>

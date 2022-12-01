@@ -3,7 +3,7 @@ import { React, useContext } from "react";
 import Context from "./components/Context";
 
 
-export default function form() {
+export default function Form() {
   const {name, img, handleName, handleImg, handleSubmit, handleResetForm} = useContext(Context)
 console.log(name);
 
