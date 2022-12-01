@@ -3,8 +3,9 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/form": "pages/form.js",
-  "/404": "pages/404.js",
+  "/photos/[id]": "pages/photos/[id].js",
+  "/": "pages/index.js",
   "/photos": "pages/photos.js",
-  "/output": "pages/output.js",
-  "/photos/[id]": "pages/photos/[id].js"
+  "/404": "pages/404.js",
+  "/output": "pages/output.js"
 }

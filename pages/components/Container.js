@@ -8,10 +8,9 @@ export default function Container({children, text}) {
   const {theme, handleThemeSwitch} = useContext(Context)
   return (
     <>
-    <div className="bg-lightcolor text-blue-200 font-mainfont container px-10 flex flex-col min-h-screen dark:bg-black">
+    <div className="bg-yellow-400 text-blue-200 font-mainfont container px-10 flex flex-col min-h-screen dark:bg-black">
         <Head>
           <title>{text}</title>
-       {/* later */}
         </Head>
         <div className="flex text-5xl justify-around py-10">
             <A href="/" text="Main Page" />
